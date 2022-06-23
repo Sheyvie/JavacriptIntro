@@ -1,7 +1,9 @@
-let myName = 'Yvonne';
-let height = 5.4;
-var country = 'Kenya';
+const aboutMe={
+    name :'Yvonne',
+    height : 5.4,
+    country : 'Kenya', 
+} 
 
-console.log(myName);
-console.log(height);
-console.log(country);
+alert(
+    `My name is ${aboutMe.name} , I am ${aboutMe.height} inches tall and I am from ${aboutMe.country}.`
+);
